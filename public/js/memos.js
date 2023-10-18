@@ -1,11 +1,11 @@
-console.log(
+sconsole.log(
   "\n %c MemosGallery v1.0.2 %c https://i.yct.ee/ \n",
   "color: #fadfa3; background: #030307; padding:5px 0;",
   "background: #fadfa3; padding:5px 0;"
 );
 photos();
 function photos() {
-  fetch("https://memos.smitten.top/api/v1/memo?creatorId=1&tag=相册")
+  fetch("https://memos.alxa.ca/api/v1/memo?creatorId=1&tag=mondy")
     .then((res) => res.json())
     .then((data) => {
       // 记得修改memos地址
